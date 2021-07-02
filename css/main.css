@@ -2465,7 +2465,30 @@ li.sub-menu--item.nav-item-has-children i {
   padding-bottom: 40px;
   z-index: 1;
 }
-
+.video-area-l-18 {
+  position: relative;
+  background: url(../image/l8/teambg.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 40px;
+  z-index: 1;
+}
+.video-area-l-18:before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-45deg, #152649 0%, #4f525c 100%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: .6;
+}
 .video-area-l-17:before {
   position: absolute;
   content: '';
@@ -2502,6 +2525,16 @@ li.sub-menu--item.nav-item-has-children i {
   color: #50E3C2;
   margin-bottom: 40px;
 }
+.video-area-l-18 .video-content a i {
+  background: #fff;
+  width: 96px;
+  height: 96px;
+  line-height: 96px;
+  border-radius: 50%;
+  text-align: center;
+  color: #50E3C2;
+  margin-bottom: 40px;
+}
 
 @media (min-width: 768px) {
   .video-area-l-17 .video-content a i {
@@ -2528,6 +2561,26 @@ li.sub-menu--item.nav-item-has-children i {
   line-height: 32px;
   color: #FFFFFF;
 }
+.video-area-l-18 .video-content h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 50px;
+  letter-spacing: -0.3px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.video-area-l-18 .video-content p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
             Pricing Area-L-17
